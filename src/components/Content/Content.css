@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-div {
+  /* background-color: white; */
+  padding: 30px;
+}
+

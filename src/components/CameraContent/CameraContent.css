@@ -1,0 +1,14 @@
+.camera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-section video {
+  margin-bottom: 20px;
+}
+
+.nodata-text, .camera-description {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}

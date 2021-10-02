@@ -1,0 +1,98 @@
+.get-btn {
+  background-color: rgb(212, 154, 154);
+  border: solid black 1px;
+  margin: 20px;
+  width: 200px;
+}
+
+.default-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.default-content {
+  width: 50vw;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.default-content section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* --------------------content btns + descr--------------------- */
+
+.default-content section label {
+  margin-right: 20px;
+  color: #999;
+}
+
+.default-content section button {
+  margin-left: 20px;
+}
+
+.custom-file-input {
+  display: none;
+}
+
+.content-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(191, 243, 191, 0.4);
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s linear;
+  margin-top: 20px;
+}
+
+.content-btn:hover {
+  background-color: rgba(191, 243, 191, 0.6);
+  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+
+.nodata-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
+.content-btn:active {
+  transition: 0s;
+  background-color: rgba(191, 243, 191, 1);
+}

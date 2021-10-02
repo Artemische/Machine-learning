@@ -1,0 +1,64 @@
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-content section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upload-content img{
+  zoom: 0.8;
+}
+
+/* --------------------content btns + descr--------------------- */
+
+.upload-content section label {
+  margin-right: 20px;
+}
+
+.upload-content section button {
+  margin-left: 20px;
+}
+
+.custom-file-input {
+  display: none;
+}
+
+.content-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(191, 243, 191, 0.4);
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s linear;
+  margin-top: 20px;
+}
+
+.content-btn:hover {
+  background-color: rgba(191, 243, 191, 0.6);
+  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+
+.content-btn:active {
+  transition: 0s;
+  background-color: rgba(191, 243, 191, 1);;
+}
+
+.nodata-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
